@@ -4,25 +4,31 @@ Issue type can be one of Feature, BugFix, Documentation, Technical, Security.
 Add issue type as a labels
 -->
 
-**Jira Link:**
-<!--- Reference the link to story present in Jira: [Jira](jira_url) -->
+### Jira Link:
+<!--- Reference the link to story present in Jira:-->
+<!-- [Jira](jira_url)  -->
 
-**Component Name:**
+### Component Name:
 <!--- Explain what changes or new features/components are introduced.
 eg: A new module/plugin/task/feature.
 -->
 
-**Summary/Motivation:**
+### Summary/Motivation:
 <!--- Mention the steps carried out to achieve the change along with the motivation (if any). -->
 
-**Testing Strategy:**
+### Documentation:
+<!--- List the documents that were created or updated (if any). -->
+
+### Testing Strategy:
 <!--- Mention the major things to test along with the steps to test. -->
 
-**Dependencies:**
+### Dependencies:
 <!--- Mention any dependencies if present along with any relevant information/links. -->
 
-**Screenshots and GIF:**
+### Screenshots and GIF:
 <!--- For UI/visual changes upload gif and screenshots. Tool for recording gif: http://recordit.co/ -->
 
-**Deployment Strategy:**
+### Deployment Strategy:
 <!--- Mention the steps to deploy it along with proper deployment and rollback strategies if some extra steps are needed to be performed. -->
+
+*[Pull Request Guidelines](https://bitly.com/cf_pullrequests "Pull Request Guidelines")*
