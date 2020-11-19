@@ -29,6 +29,17 @@ eg: A new module/plugin/task/feature.
 <!--- For UI/visual changes upload gif and screenshots. Tool for recording gif: http://recordit.co/ -->
 
 ### Deployment Strategy:
-<!--- Mention the steps to deploy it along with proper deployment and rollback strategies if some extra steps are needed to be performed. -->
+<!--- Mention the steps to deploy code along with proper deployment and rollback strategies if some extra steps are needed to be performed. You can list deployment steps as follows:
+
+- Deploy SQS queue => queue_name: user-reset-mfa queue
+- Deploy Lambda => lambda_name: reset-mfa-listener
+- Deploy SNS Topic
+- Create table 
+- Setup ES
+- Update NACL Rules
+- Update permissions stack
+- Update cnm
+- Update service
+-->
 
 *[Pull Request Guidelines](https://bitly.com/cf_pullrequests "Pull Request Guidelines")*
