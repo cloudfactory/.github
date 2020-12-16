@@ -40,7 +40,6 @@ eg: A new module/plugin/task/feature.
 - Update permissions stack
 - Update cnm
 - Update service
-- Update service
 -->
 
 *[Pull Request Guidelines](https://bitly.com/cf_pullrequests "Pull Request Guidelines")*
