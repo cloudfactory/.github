@@ -27,10 +27,10 @@ eg: A new module/plugin/task/feature.
 **Deployment Strategy:**
 <!--- Mention the steps to deploy code along with proper deployment and rollback strategies if some extra steps are needed to be performed. You can list deployment steps as follows:
 
-- Deploy SQS queue => queue_name: user-reset-mfa queue
-- Deploy Lambda => lambda_name: reset-mfa-listener
+- Deploy SQS queue. eg: Deploy user-reset-mfa SQS
+- Deploy Lambda. eg: Deploy user-reset-mfa Lambda
 - Deploy SNS Topic
-- Create table 
+- Run database migration
 - Setup ES
 - Update NACL Rules
 - Update permissions stack
