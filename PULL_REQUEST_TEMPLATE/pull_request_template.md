@@ -27,14 +27,14 @@ eg: A new module/plugin/task/feature.
 **Deployment Strategy:**
 <!--- Mention the steps to deploy code along with proper deployment and rollback strategies if some extra steps are needed to be performed. You can list deployment steps as follows:
 
-- Deploy SQS queue. eg: Deploy user-reset-mfa SQS
+- Deploy SQS queue. eg: Deploy create-pool-update-sqs
 - Deploy Lambda. eg: Deploy user-reset-mfa Lambda
-- Deploy SNS Topic
-- Run database migration
-- Setup ES
-- Update NACL Rules
-- Update permissions stack
-- Update cnm
-- Update service
+- Deploy SNS Topic eg: Deploy create-demandpool-sns
+- Run database migration eg: Create workblock data-store
+- Setup ES. eg: Create pool-search data-store
+- Update NACL Rules.
+- Update permissions stack.
+- Update CNM. eg: Update cnm of calendar service
+- Update service. eg: Update user-management-service
 -->
 *[Pull Request Guidelines](https://bitly.com/cf_pullrequests "Pull Request Guidelines")*
