@@ -32,8 +32,8 @@ eg: A new module/plugin/task/feature.
 - Deploy SNS Topic eg: Deploy create-demandpool-sns
 - Run database migration eg: Create workblock data-store
 - Setup ES. eg: Create pool-search data-store
-- Update NACL Rules.
-- Update permissions stack.
+- Update NACL Rules. eg: Update NACL rule for performance interface
+- Update permissions stack. eg: Deploy Permissions for ASA subsystem
 - Update CNM. eg: Update cnm of calendar service
 - Update service. eg: Update user-management-service
 -->
