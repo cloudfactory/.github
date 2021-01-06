@@ -10,7 +10,12 @@ Add issue type as a labels
 **Component Name:**
 <!--- Explain what changes or new features/components are introduced.
 eg: A new module/plugin/task/feature.
+Note: If you feel, service-version/config-version is not required, specify not required
+eg: - [ ] Update Config version (Not required)
 -->
+- [ ] Add Changelog
+- [ ] Update Service version
+- [ ] Update Config version
 
 **Summary/Motivation:**
 <!--- Mention the steps carried out to achieve the change along with the motivation (if any). -->
