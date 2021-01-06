@@ -25,6 +25,16 @@ eg: A new module/plugin/task/feature.
 <!--- For UI/visual changes upload gif and screenshots. Tool for recording gif: http://recordit.co/ -->
 
 **Deployment Strategy:**
-<!--- Mention the steps to deploy it along with proper deployment and rollback strategies if some extra steps are needed to be performed. -->
+<!--- Mention the steps to deploy code along with proper deployment and rollback strategies if some extra steps are needed to be performed. You can list deployment steps as follows:
 
+- Deploy SQS queue. eg: Deploy create-pool-update-sqs
+- Deploy Lambda. eg: Deploy user-reset-mfa Lambda
+- Deploy SNS Topic eg: Deploy create-demandpool-sns
+- Run database migration eg: Create workblock data-store
+- Setup ES. eg: Create pool-search data-store
+- Update NACL Rules. eg: Update NACL rule for performance interface
+- Update permissions stack. eg: Deploy Permissions for ASA subsystem
+- Update CNM. eg: Update cnm of calendar service
+- Update service. eg: Update user-management-service
+-->
 *[Pull Request Guidelines](https://bitly.com/cf_pullrequests "Pull Request Guidelines")*
